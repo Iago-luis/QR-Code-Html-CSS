@@ -1,0 +1,39 @@
+@media (max-width: 375px) {
+    .pai {
+        position: relative;
+        height: 375px;
+        background-color: bisque;
+
+    }
+
+    .filho {
+        position: absolute;
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .pai {
+        position: relative;
+        height: 768px;
+        background-color: bisque;
+
+    }
+
+    .filho {
+        position: absolute;
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
