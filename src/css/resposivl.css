@@ -2,11 +2,13 @@
     .pai {
         position: relative;
         height: 375px;
-        background-color: bisque;
+        border: 1px;
+        border-radius: 20px;
 
     }
 
     .filho {
+
         position: absolute;
         background-color: white;
         height: 250px;
@@ -23,7 +25,7 @@
     .pai {
         position: relative;
         height: 768px;
-        background-color: bisque;
+        border: 1px;
 
     }
 
@@ -35,5 +37,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        border: 1px;
+        border-radius: 20px;
     }
+
 }

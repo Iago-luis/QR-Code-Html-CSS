@@ -1,13 +1,17 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
-    
+   
 }
 html{
     font-size: 15px;
 }
 body{
     overflow: hidden;
+    background-color: hsl(212, 45%, 89%);
 }
 img{
     position: relative;
@@ -15,4 +19,26 @@ img{
     width: 50%;
     left: 25%;
     top: 2%;
+    border: 1px;
+    border-radius: 20px;
+}
+h2 {
+    
+    font-family:"Outfit ", sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px;
+    width: 250px;
+    color: hsl(218, 44%, 22%);
+    text-align: center
+}
+
+p {
+    font-family:"Outfit ", sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px;
+    color: hsl(218, 24%, 61%);
+    text-align: center
+    
 }
